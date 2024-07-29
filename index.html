@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div>
+        <button onclick="filtrarMayoresDeEdad()"> filtrar Mayores DeEdad</button>
+        <div id="resultado1"></div>
+    </div>
+    <div>
+        <button onclick="transformarYFiltrar()">transformar Y Filtrar</button>
+        <div id="resultado2"></div>
+    </div>
+    <div>
+        <button onclick="obtenerUsuarios()">obtener Usuarios</button>
+    </div>
+    <div>
+        <button id="agregar">Agregar ítem</button>
+        <ul id="lista"></ul>
+    </div>
+    <div>
+        <button onclick="ordenarPorPropiedad()"> ordenar Por Propiedad</button>
+        <input type="text" id="propiedad">
+        <div id="resultado5"></div>
+    </div>
+
+
+    
     <script src="app.js"></script>
 </body>
 </html>
